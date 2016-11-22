@@ -12,6 +12,7 @@ var middleware = {
 
 		console.log(req.method + " " + req.origionalUrl);
 		next();
+		console.log("doing");
 	}
 };
 
